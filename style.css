@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+
+.background{
+  margin: auto;
+  margin-top: 2%;
+  width: 65%;
+  padding: 4%;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 20px;
+}
+
+header, nav{
+  text-align: center;
+}
+
+header > img{
+  width: 250px;
+}
+
+header > h1{
+  margin: 0;
+  color: #00DD00;
+}
+
+nav{
+  margin-top: 10px;
+  background-color: #00DD00;
+  padding: 12px;
+}
+
+nav input[type=button]{
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  margin-right: 5%;
+  margin-left: 5%;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+nav input[type=button]:hover{
+  font-weight: bold;
+}
+
+section{
+  color: white;
+}
+
+section p{
+  margin: 1px;
+  line-height: 22px;
+}
+
+section h3{
+  display: inline-block;
+  margin: 22px 0 0 0;
+}
+
+.linea1{
+  background: orange;
+  width: 30%;
+}
+
+.linea2{
+  background: green;
+  width: 50%;
+}
+
+.linea3{
+  background: red;
+  width: 15%;
+}
+
+.linea1, .linea2, .linea3{
+  height: 30px;
+  border-radius: 5px;
+}
+
+section div p{
+  padding: 5px;
+  text-align: center;
+}
